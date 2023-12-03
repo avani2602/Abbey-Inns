@@ -1,0 +1,70 @@
+THE ABBEY INNS PROJECT
+
+STORY
+‘Abbey Inns’ is a company with 3 hotels. They have a major expansion program and will have many more hotels in the future.
+
+They would like a computer program which will keep track of all of their rooms and the room facilities.
+
+Their data analyst has recommended a data scheme will allow them to keep track of their existing hotels and also allow for expansion
+
+DATA SCHEME
+
+Object 1 - Company 
+Contains : 
+list of hotels the company owns
+The name of the CEO
+The amount of profit from the previous year
+Types : 
+Linked List - list of hotels the company owns
+String - The name of the CEO
+Double - The amount of profit from the previous year
+
+Object 2 - Hotel
+
+Contains : 
+rooms available
+The name of the hotel
+The address of the hotel
+The number of stars (rating) 
+Types : 
+2D Array - rooms available
+String - The name of the hotel
+String - The address of the hotel
+Integer - The number of stars
+
+Object 3 -  Room
+Contains : 
+the number of beds
+Does the room have a bath
+Does the room have a good view
+Cost per night
+Types : 
+Integer - The number of beds
+Boolean - Does the room have a bath
+Boolean - Does the room have a good view
+Real - Cost per night
+
+
+
+
+Important notes
+Each room’s record will be stored in a 2-D array based on: the floor number and the room number (all integers)
+All data will be stored in a CSV file between program runs (CSV file will be provided by Mr.Baker)
+
+THE PROGRAM MUST
+Read in data from a CSV file at the start of the program (the CSV file will be given to you – AbbeyInns.csv)
+Allow staff to:
+add new room details
+View existing room details
+Edit existing room details
+Be able to store all updates to the CSV file
+
+THREE MAIN TASKS
+UML for what your program is going to look like.
+Code for the program.
+Evidence of testing.
+
+
+
+
+

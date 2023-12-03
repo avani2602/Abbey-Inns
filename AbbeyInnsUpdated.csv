@@ -1,0 +1,11 @@
+Hotel1,Address1,4
+1,1,2,true,true,55.0
+1,2,2,false,false,65.0
+Hotel2,Address2,3
+1,1,2,true,true,55.0
+1,2,2,false,false,65.0
+3,2,2,true,true,74.0
+Hotel3,Address3,5
+1,1,2,true,true,55.0
+2,3,1,true,false,90.0
+3,2,1,false,true,120.0
